@@ -1,17 +1,3 @@
-/* Things to style
-
-body
-
-h1
-
-p
-
-ul
-
-li
-
-img*/
-
 /*broswer reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -35,43 +21,50 @@ time, mark, audio, video {
   }
 
 html{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif; 
+  font-family: 'Source Serif Pro', serif;
   -webkit-font-smoothing: antialiased;
 }
 
 body{
 	text-align: center;
-	background-color: #F2F2F2; /* backgroung-color*/
+	/* background-color: #F2F2F2; 1st background color choosen, changed to purple */
+  background-color: purple; /*page background color */
 }
 
 ul{
 	color: #51A39D; /* text color */
-	font-weight: bold;
+  font-family: 'Merriweather', serif; 
+	/*font-weight: bold;*/
 	text-align: center;
 	list-style:none; /* removes bullets */
 }
 
 nav ul{
-	position: fixed; /* makes nac sticky */
+	position: fixed; /* makes nav sticky */
+  background-color:  #333333;
   top: 0;
   width: 100%;
-  margin: 2% auto;
+  padding: 1% 0;
 }
 
 nav ul li{
-	color: #000; /* hex color black */
+	color: #51A39D;
 	display: inline;
 	padding: 5px 0px 5px 30px;
 }
 
 p{
+  font-family: 'Merriweather', serif; 
   margin: 5%;
 }
 
 /*sections*/
 
 .section-title{
-  color:#814374; /* section title(s) color */
+  /*color:#814374; 1st section title color choosen, changed to white*/
+  color: #fff; /* section title(s) color */
+  font-family: 'Source Serif Pro', serif;
   font-size:3rem;
   font-weight: 700;
   margin: 5%;
@@ -82,27 +75,49 @@ p{
   text-align: center;
 }
 
-.sub-section-title,.sub-section-content{
-	color: #B7695C;
-	font-weight: bold;
-  padding: 5% 0 5% 0;
+.profile-photo{
+  border-radius: 50%
 }
 
-.footer{
-  color: #814374;
+.sub-section-title{
+  color: #fff;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 5% 0 0 0;
+}
+
+.sub-section-content{
+	color: #B7695C;
+  font-family: 'Merriweather', serif; 
+  font-size: 1rem;
+	font-weight: semi-bold;
+  margin: 0 0 5% 0;
+  padding: 2% 2% 0 2%
 }
 
 .skills{
+  background-color: #7A1EA1;
   height: 100%;
-  padding: 5% 0 0 0;
   text-align: center;
 }
 
+.skills ul{
+  margin: 0 0 5% 0;
+}
+
 .skills li{
+  color: #fff;
   padding: 1%;
   display: inline;
 }
+
+.skills i{
+  color: #51A39D;
+}
+
 .projects{
+  background-color: orange;
   height: 100%;
   padding: 5% 0 0 0;
   text-align: center;
@@ -113,14 +128,33 @@ p{
   padding: 0 0 5% 0
 }
 
+/* footer */
 .footer{
-  background-color: purple;
-  font-size: 1.5rem;
-  margin: 1%;
+  font-size: rem;
+  background-color: #333333;
+  text-align: center;
+  padding: 0 0 5% 0;
 }
 
+.footer ul li{
+  display: inline;
+}
+
+.footer li{
+  margin: 1%
+}
+
+.footer a,i{
+  font-size: 1.5rem;
+  color: #51A39D;
+}  
+
+/*slogan */
 #slogan{
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2rem;
+  font-weight: 400;
 	font-style: italic;
 	color: #51A39D;
-  padding: 5% 0 5% 0;
+  padding: 0% 0 5% 0;
 }
