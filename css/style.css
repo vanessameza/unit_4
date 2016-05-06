@@ -1,25 +1,3 @@
-/*broswer reset*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
- /* border: 0;*/
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  }
-
 html{
   font-family: 'Merriweather', serif; 
   font-family: 'Source Serif Pro', serif;
@@ -61,7 +39,7 @@ p{
 
 /*sections*/
 
-.section-title{
+.section-title {
   /*color:#814374; 1st section title color choosen, changed to white*/
   color: #fff; /* section title(s) color */
   font-family: 'Source Serif Pro', serif;
@@ -79,7 +57,7 @@ p{
   border-radius: 50%
 }
 
-.sub-section-title{
+.section-title{
   color: #fff;
   font-family: 'Source Serif Pro', serif;
   font-size: 3rem;
@@ -87,7 +65,7 @@ p{
   margin: 5% 0 0 0;
 }
 
-.sub-section-content{
+.section-content{
 	color: #B7695C;
   font-family: 'Merriweather', serif; 
   font-size: 1rem;
